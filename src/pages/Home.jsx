@@ -1,5 +1,6 @@
 //Needed to create a new file in the pages folder to create the new page
 import React from 'react';
+import { useState } from 'react';
 import kingdomMan from '../assets/images/kingdomman.jpeg';
 import mount from '../assets/images/mount.jpeg';
 import acts from '../assets/images/acts.jpeg';
@@ -8,14 +9,7 @@ import baptism from '../assets/images/baptism.jpg';
 export default function Home() {
     return (
       <div className='bio'>
-        <div class="text-bg-dark">
-        <img src={baptism} id="banner" class="card-img" alt="..."/>
-        <div class="card-img-overlay" id="living">
-          <h1 class="card-title">LIVING WATERS CHURCH</h1>
-          <p class="card-text">"He who believes in Me, as the Scripture said, 'From his innermost being will flow rivers of living water'".</p>
-          <p class="card-text"><small>John 7:38</small></p>
-        </div>
-      </div>
+        
       <div class="row">
         <div class="col">
           <div class="card">
@@ -45,12 +39,6 @@ export default function Home() {
                 <h3 class="card-title">Upcoming Events</h3>
                 <img class="card-img-top" src="../src/assets/images/familyfunday.jpeg" alt="Card image cap"/>
                 <p class="card-text">Join us as we celebrate a day of family fun for kids of all ages. Friends and family are all welcome!</p>
-              </div>
-            </div>
-            <div class="card p-3">
-              <div class="card-body">
-                <h2 class="card-title">About Us</h2>
-                <p>Living Waters Church (LWC) is an affiliated sister church of the greater Lao Evangelical Church. We aim to teach and spread the Gospel to people who are willing to hear the word of God. We enbrace all backgrounds and ethnicities to receive the word of God.</p>
               </div>
             </div>
             <div class="card">

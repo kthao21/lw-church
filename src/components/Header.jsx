@@ -6,7 +6,7 @@ function Header() {
 
     return (
         <header>
-            <h1>Welcome to Living Waters Church Website</h1>
+            <h1>Living Waters Church</h1>
         </header>
     )
 }

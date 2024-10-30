@@ -14,9 +14,7 @@ function App() {
     <>
       <Header />
       <Nav />
-      {/* <main className="mx-3"> */}
-        <Outlet />
-      {/* </main> */}
+      <Outlet />
       <Footer />
     </>
   );
