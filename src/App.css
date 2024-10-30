@@ -1,3 +1,171 @@
- * {
-    background-color: red;
- }
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+* {
+    font: 16px 'Raleway', sans-serif;
+}
+
+body {
+    background: #8ea0ad;
+}
+
+#logo {
+    height: 40px;
+    width: 50px;
+}
+
+.nav-item {
+    padding: 10px;
+}
+
+.btn {
+    border: 1px solid black;
+}
+
+#banner {
+    display: flex;
+    opacity: 0.4;
+    height: 300px;
+    width: 80%;
+    padding-left: 350px;
+}
+
+#living {
+    text-align: center;
+    padding-top: 150px;
+}
+
+nav {
+    z-index: 9999;
+}
+
+h1 {
+    font-size: 50px;
+    letter-spacing: 1.5rem;
+    text-shadow: 2px 2px 5px #8ea0ad;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: auto;
+    width: 500px;
+}
+
+.btn {
+    background-color: gray;
+    color: white;
+    border-radius: 3rem;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.col {
+    padding: 40px;
+}
+.card-img-overlay {
+    margin-top: 20px;
+}
+footer {
+    background: ;
+    padding-top: 50px;
+    background-color: #333333;
+    color: white;
+}
+.container {
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.footer-content {
+    width: 20%;
+}
+h4 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.footer-content p{
+    width: 190px;
+    margin: auto;
+    padding: 7px;
+}
+
+.footer-content ul{
+    text-align: center;
+}
+.list {
+    padding: 0;
+}
+.list li{
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+    padding: 7px;
+    position: relative
+}
+.list li::before {
+    content: '';
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: #333333;
+    transition-duration: .5s;
+}
+.lsit li:hover::before {
+    width: 70px;
+}
+.social-icons {
+    text-align: center;
+    padding: 0;
+}
+.social-icons li {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+.social-icons i{
+    color: white;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
+}
+.social-icons i:hover{
+    color: black;
+}
+.bottom-bar{
+    background: #222222;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+.bottom-bar p{
+    color: #636363;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
+}
+h3 {
+    font-family: pacifico;
+    font-size: 50px;
+    padding: 7px;
+}
+
+h2 {
+    font-weight: bold;
+}
